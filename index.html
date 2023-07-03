@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    <script src="./script.js" defer></script>
+    <title>VM Note</title>
+</head>
+<body class="body">
+      <div class="header">
+         <div class="title">
+            <h1> VM<span class="title-orange">Note</span></h1>
+            <button type="button"  id="myButton">NEW NOTE</button>
+         </div> 
+       </div>
+
+       <!-- Note box -->
+
+       <div id="myPopup" style="display:none;">
+  
+           <input type="text" id="note-title" class="popup-title" placeholder="title"/>     
+         <input type="text" id="note-1" class="popup-note"/>
+         <input type="text" id="note-2" class="popup-note"/>
+         <input type="text" id="note-3" class="popup-note"/>
+         <input type="text" id="note-4" class="popup-note"/>
+         <input type="text" id="note-5" class="popup-note"/>
+         <div style="margin :5px">
+
+
+          <button id="close" style="background-color:yellow">Close</button> 
+          <button id="add"  style="background-color: green; color: white">Add</button> 
+         </div>
+         
+
+      </div>
+
+      <div id="divToolTip">
+        This is the tooltip
+    </div>
+       <div class="container" id="note-container">
+
+
+      
+
+
+        <!-- <div class="note">
+            <div>
+                <p class="note-title">Grocery List</p>
+                <p class="line"> Rice - 1kg</p>
+                <p class="line">Sugar 500 g</p>
+                <p class="line">Vegetable - 500g</p>
+                <p class="line">Cooking -oil -  1l</p>
+            </div>
+              <div>
+               <p class="note-title note-btn " id="1">--</p>              </div>
+             <div>
+            </div>       
+        </div> -->
+
+
+
+       </div>
+
+
+    
+</body>
+</html>
